@@ -4,6 +4,7 @@ OOP memiliki beberapa kelebihan, antara lain:
 2. OOP lebih mudah dirawat dan dipertahankan.
 3. OOP lebih mudah diperluas dan disesuaikan.
 4. OOP lebih mudah diuji.
+
 Pada PHP, OOP diimplementasikan dengan menggunakan kelas dan objek. Kelas adalah cetak biru untuk membuat objek. Objek adalah instance dari kelas yang memiliki data dan perilaku.
 
 OOP pada PHP memiliki beberapa konsep dasar, antara lain:
