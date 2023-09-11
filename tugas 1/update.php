@@ -74,7 +74,7 @@ input[type="submit"] {
       $nim = $_POST['nim'];
       $jurusan = $_POST['jurusan'];
 
-      // Tampilkan pesan berhasil
+      // Tampilkan pesan berhasil pada layar
       echo "<p class='success'>Data berhasil dibuat.</p>";
     }
     ?>
