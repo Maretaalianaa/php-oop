@@ -75,7 +75,7 @@ p.success {
 
     <?php
     // Menjalankan proses create jika semua input terisi.
-    if (isset($_POST['nama']) && isset($_POST['nim']) && isset($_POST['jurusan'])) {
+    if (isset($_POST['nama']) && isset($_POST['npm']) && isset($_POST['jurusan'])) {
       $nama = $_POST['nama'];
       $npm = $_POST['npm'];
       $jurusan = $_POST['jurusan'];

@@ -1,6 +1,6 @@
 <?php
 
-// Kelas PersegiPanjang memiliki dua properti: panjang dan lebar.
+// Kelas Persegi Panjang memiliki dua properti: panjang dan lebar.
 class PersegiPanjang {
   public $panjang;
   public $lebar;
