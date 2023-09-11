@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Login</title>
+  <!-- css internal -->
   <style> 
     body {
   font-family: sans-serif;
@@ -53,14 +54,18 @@ input[type="submit"] {
 
   <div class="container">
     <h1>Login</h1>
-
+    <!-- Menentukan aksi formulir ke file login.php dan metode pengirimannya adalah POST --> 
     <form action="login.php" method="post">
-      <input type="text" name="username" placeholder="Username">
+      <!-- Menambahkan input teks untuk username. -->
+      <input type="text" name="username" placeholder="Username"> 
+      <!-- Menambahkan input password untuk password. -->
       <input type="password" name="password" placeholder="Password">
+      <!-- Menambahkan tombol submit dengan label "Login". -->
       <input type="submit" value="Login">
     </form>
 
     <?php
+    // Menampilkan pesan "Silahkan login terlebih dahulu." jika session isLogin tidak ada.
     if (!isset($_SESSION['isLogin'])) {
       echo "<p>Silahkan login terlebih dahulu.</p>";
     }
@@ -71,6 +76,7 @@ input[type="submit"] {
 </html>
 
 <?php
+// Menjalankan proses login jika username dan password yang dimasukkan pengguna benar.
 // Proses login
 if (isset($_POST['username']) && isset($_POST['password'])) {
   $username = $_POST['username'];
