@@ -53,7 +53,7 @@ p.success {
   color: #000;
   background-color: #ccc;
   padding: 10px;
-}
+} 
   </style>
 </head>
 <body>

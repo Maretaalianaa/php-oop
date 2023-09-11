@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Create</title>
-  <style>
+  <style> 
     body {
   font-family: sans-serif;
   background-color: #fff;
